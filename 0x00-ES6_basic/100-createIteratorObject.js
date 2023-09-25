@@ -3,4 +3,3 @@ export default function createIteratorObject(report) {
     console.log('Placeholder');
   }
 }
-

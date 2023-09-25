@@ -216,3 +216,7 @@ This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
     }
     ```
   + It should return every employee name in a string, separated by ` | `.
+
+## Authour
+
+Manuel Dinis JÃnior

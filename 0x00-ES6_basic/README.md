@@ -87,7 +87,7 @@ This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
   ```
 
 + [x] 6. **Take advantage of template literals**<br/>[6-string-interpolation.js](6-string-interpolation.js) contains a script that meets the following requirements.
-  + For the code below, rewrite the return statement to use a template literal so you can the substitute the variables you’ve defined.
+  + For the code below, rewrite the return statement to use a template literal so you can the substitute the variables youâ€™ve defined.
   ```js
   export default function getSanFranciscoDescription() {
     const year = 2017;
@@ -104,7 +104,7 @@ This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
   ```
 
 + [x] 7. **Object property value shorthand syntax**<br/>[7-getBudgetObject.js](7-getBudgetObject.js) contains a script that meets the following requirements.
-  + For the code below, modify the following function’s `budget` object to simply use the keyname instead.
+  + For the code below, modify the following functionâ€™s `budget` object to simply use the keyname instead.
   ```js
   export default function getBudgetObject(income, gdp, capita) {
     const budget = {
@@ -158,7 +158,7 @@ This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
   ```
 
 + [x] 10. **For...of Loops**<br/>[10-loops.js](10-loops.js) contains a script that meets the following requirements.
-  + For the code below, rewrite the function `appendToEachArrayValue` to use ES6’s `for...of` operator. And don’t forget that `var` is not ES6-friendly.
+  + For the code below, rewrite the function `appendToEachArrayValue` to use ES6â€™s `for...of` operator. And donâ€™t forget that `var` is not ES6-friendly.
   ```js
   export default function appendToEachArrayValue(array, appendString) {
     for (var idx in array) {
@@ -196,7 +196,7 @@ This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
     }
     ```
   + `createReportObject` should return an object containing the key `allEmployees` and a method property called `getNumberOfDepartments`.
-  + `allEmployees` is a key that maps to an object containing the department name and a list of all the employees in that department. If you’re having trouble, use the spread syntax.
+  + `allEmployees` is a key that maps to an object containing the department name and a list of all the employees in that department. If youâ€™re having trouble, use the spread syntax.
   + The method property receives employeesList and returns the number of departments.
 
 + [x] 13. **Iterating through report objects**<br/>[100-createIteratorObject.js](100-createIteratorObject.js) contains a script that meets the following requirements.
@@ -209,7 +209,7 @@ This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
   + This function will return an iterator to go through every employee in every department.
 
 + [x] 14. **Iterate through object**<br/>[101-iterateThroughObject.js](101-iterateThroughObject.js) contains a script that meets the following requirements.
-  + Write a function named `iterateThroughObject`. The function’s parameter `reportWithIterator` is the return value from `createIteratorObject`.
+  + Write a function named `iterateThroughObject`. The functionâ€™s parameter `reportWithIterator` is the return value from `createIteratorObject`.
     ```js
     export default function iterateThroughObject(reportWithIterator) {
 
@@ -217,6 +217,6 @@ This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
     ```
   + It should return every employee name in a string, separated by ` | `.
 
-## Authour
+## Authour 
 
-Manuel Dinis J�nior
+Manuel Dinis JÃnior
